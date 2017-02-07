@@ -145,7 +145,9 @@ write.csv(relcov_long, '~/Dropbox/CoDyn/R files/11_06_2015_v7/relative cover_nce
 ###################################
 
 
-alldata3 <- read.csv('~/Dropbox/CoDyn/R files/11_06_2015_v7/relative cover_nceas and converge_12012015_cleaned.csv')
+# alldata3 <- read.csv('~/Dropbox/CoDyn/R files/11_06_2015_v7/relative cover_nceas and converge_12012015_cleaned.csv')
+alldata3 <- read.csv('fromDROPBOX_11_06_2015_v7/relative cover_nceas and converge_12012015_cleaned.csv')
+
 
 #make year as factor
 expt.list=data.frame(expt=levels(droplevels(alldata3$site_project_comm)))
